@@ -26,6 +26,8 @@ const register = async (req, res) => {
 
         const verificationLink = `${process.env.BASE_URL}/${newUser.verificationToken}/verify/${newUser._id}`;
 
+
+
         // Construct the HTML content for the email
         const htmlContent = `
           <!DOCTYPE html>
@@ -81,8 +83,9 @@ const register = async (req, res) => {
 
 
 
-
+        console.log(htmlContent);
         await sendMail(htmlContent, newUser.email)
+
         return res.status(200).json({ message: "User registered successfully. Please check your email for verification.", newUser });
 
     } catch (error) {
@@ -122,7 +125,7 @@ const verifyMail = async (req, res) => {
         const { _id, token } = req.params
         const user = await User.findOne({ _id, verificationToken: token });
         if (!user) {
-            return res.status(404).json({ error: "User Not Found" });
+            return res.status(400).json({ error: "User Not Found" });
         } else if (currentDate > user.tokenExpires) {
             return res.status(400).json({ error: "Link Expired" });
         } else {
