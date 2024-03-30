@@ -1,0 +1,112 @@
+//& Categories = Mobile,computer,laptop,TV,Accessories
+//& Company    = Apple,samsung,Dell,Asus,Nokia
+const data = [
+    {
+        id: 101,
+        images: [
+            "https://m.media-amazon.com/images/I/71E5zB1qbIL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/915NXQJEeFL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71OllS3InEL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81mrpbPBRwS._SX679_.jpg"
+        ],
+        stock: 60,
+        name: "Apple iPhone 12 (256GB)",
+        price: 54899,
+        description: "Advanced dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Deep Fusion, Smart HDR 3, 4K Dolby Vision HDR recording.12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+        isFeatured: true,
+        category: "Mobile",
+        company: "Apple",
+        ratings: 4.5,
+        reviews: 32
+    },
+    {
+        id: 102,
+        images: [
+            "https://m.media-amazon.com/images/I/810HI-4wV+L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71XU+rv-wVL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81vb4C6y5wL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71hQXxQAdXL._SX679_.jpg",
+
+        ],
+        stock: 54,
+        name: "Oppo F25 Pro 5G",
+        price: 54899,
+        description: "2.5D straight front screen + 2D back cover, creating smooth lines and an elegant outlook. The entire phone has a thin and lightweight(177g) design, which is easy to hold without causing a burden on the wrist. 17.02cm (6.7 Inch) AMOLED Display and Ultra- narrow bezel with Screen - to - body ratio: 93.4 % .FHD + Resolution with 2412×1080 Pixels, with 1Billion Colours and 120Hz Refresh Rate.",
+        isFeatured: true,
+        category: "Mobile",
+        company: "Oppo",
+        ratings: 5.0,
+        reviews: 12
+    },
+    {
+        id: 103,
+        images: [
+            "https://m.media-amazon.com/images/I/81EGwrWicZL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61bXQrY-SVL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/613f3w8yJFL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81rU34byg4L._SX679_.jpg"
+        ],
+        stock: 84,
+        name: "Smart TV",
+        price: 94899,
+        description: "4K Ultra HD (3840 x 2160) Resolution |Refresh Rate : 100 Hertz Connectivity : 4 HDMI ports to connect set top box | 2 USB ports to connect hard drives or other USB devices | Ethernet | Wi-fi | Bluetooth",
+        isFeatured: false,
+        category: "TV",
+        company: "Samsung",
+        ratings: 4.0,
+        reviews: 18
+    },
+    {
+        id: 104,
+        images: [
+            "https://m.media-amazon.com/images/I/71hIXg9d6AL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71eCLylVunL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71Dx3zk2QSL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71AuOOAiuJL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71055VmccWL._SX679_.jpg"
+        ],
+        stock: 104,
+        name: "Strap Analog Watch",
+        price: 300,
+        description: "Brass Metal Dial With Silver Needles & Day & Date Feature Strap & Case :  Silicon Strap | Stainless Steel Case Machinery: Japanese Quartz Machinery With Original Sony Batteries Which Last More Than 2 Years",
+        isFeatured: true,
+        category: "Watch",
+        company: "MATRIX",
+        ratings: 3.0,
+        reviews: 87
+    },
+    {
+        id: 105,
+        images: [
+            "https://m.media-amazon.com/images/I/81UFHe-hH5L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/7105Rld2JtL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81nSKSq2vkL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81nSKSq2vkL._SX679_.jpg"
+        ],
+        stock: 10,
+        name: "MacBook",
+        price: 115900,
+        description: "IMPRESSIVELY BIG, IMPOSSIBLY THIN — The 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display. The durable 100% recycled aluminium enclosure is strikingly thin and light.",
+        isFeatured: true,
+        category: "Laptop",
+        company: "Apple",
+        ratings: 2.8,
+        reviews: 87
+    }
+    {
+        "images": [
+           "https://m.media-amazon.com/images/I/611DSbBH6GL._AC_SX569_.jpg",
+           "https://m.media-amazon.com/images/I/61xG31Q+pwL._AC_SX569_.jpg",
+           "https://m.media-amazon.com/images/I/61PGXfSSbzL._AC_SX569_.jpg"
+        ],
+        "stock": 10,
+        "name": "Raycon Wireless Headphones",
+        "price": 1100,
+        "description": "Raycon Fitness Headphones - Wireless Over-Ear-Headphones with 45 Hours of Battery, Active Noise Cancellation, Awareness Mode, 3 Quick Swap Ear Cushions, IPX4 Water Resistance (White)",
+        "isFeatured": true,
+        "category": "Headpone",
+        "company": "Raycon",
+        "ratings": 4.8,
+        "reviews": 87
+    }
+]
