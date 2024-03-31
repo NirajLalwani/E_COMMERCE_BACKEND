@@ -9,8 +9,8 @@ const cors = require('cors')
 
 //^Middlewares
 app.use(express.json());
-// app.use(cors())
-app.use(cors({ origin: 'https://e-commerce-client-3.onrender.com' }));
+app.use(cors())
+// app.use(cors({ origin: 'https://e-commerce-client-3.onrender.com' }));
 app.use('/api/users/', userRouter);
 app.use('/api/contacts/', contactRouter);
 app.use('/api/products/', productRouter);
