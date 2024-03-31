@@ -117,10 +117,10 @@ const login = async (req, res) => {
 const verifyMail = async (req, res) => {
     try {
         // const Date = new Date()
-        res.json({"YES":"API CALLED"});
         const currentDate = Date.now();
 
         const { _id, token } = req.params
+        res.json({ "YES": "API CALLED", _id, token });
         const user = await User.findOne({ _id, verificationToken: token });
         if (!user) {
             return res.status(400).json({ error: "User Not Found" });
@@ -177,3 +177,9 @@ const getData = async (req, res) => {
 }
 
 module.exports = { register, login, verifyMail, resendMail, getData }
+
+
+// git status
+// git add .
+// git commit -m 'added'
+// git push
