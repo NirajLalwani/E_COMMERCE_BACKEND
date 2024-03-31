@@ -120,7 +120,6 @@ const verifyMail = async (req, res) => {
         const currentDate = Date.now();
 
         const { _id, token } = req.params
-        res.json({ "YES": "API CALLED", _id, token });
         const user = await User.findOne({ _id, verificationToken: token });
         if (!user) {
             return res.status(400).json({ error: "User Not Found" });
