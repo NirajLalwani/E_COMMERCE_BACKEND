@@ -13,7 +13,6 @@ app.use(cors())
 app.use('/api/users/', userRouter);
 app.use('/api/contacts/', contactRouter);
 app.use('/api/products/', productRouter);
-
 //& DB Connection
 const mongoose = require('mongoose');
 mongoose.connect(process.env.DATABASE).then(() => {

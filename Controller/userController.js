@@ -81,9 +81,6 @@ const register = async (req, res) => {
           </html>
         `;
 
-
-
-        console.log(htmlContent);
         await sendMail(htmlContent, newUser.email)
 
         return res.status(200).json({ message: "User registered successfully. Please check your email for verification.", newUser });
@@ -123,6 +120,7 @@ const verifyMail = async (req, res) => {
         const currentDate = Date.now();
 
         const { _id, token } = req.params
+        res.json({_id,token});
         const user = await User.findOne({ _id, verificationToken: token });
         if (!user) {
             return res.status(400).json({ error: "User Not Found" });
