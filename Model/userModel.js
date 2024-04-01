@@ -48,7 +48,6 @@ const userSchema = new mongoose.Schema({
 });
 
 
-
 userSchema.methods.generateVerificationToken = function () {
     return crypto.randomBytes(20).toString('hex');
 };
