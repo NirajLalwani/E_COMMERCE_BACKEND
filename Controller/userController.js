@@ -245,7 +245,7 @@ const sendResetLink = async (req, res) => {
         </head>
         <body>
           <div class="container">
-            <h1>Email Verification</h1>
+            <h1>Password Reset</h1>
             <p>Click the following link to verify your email address:</p>
             <p><a href="${verificationLink}" style="color:white" class="verification-link">Reset Password</a></p>
             <p>If you did not request this, please ignore this email.</p>
