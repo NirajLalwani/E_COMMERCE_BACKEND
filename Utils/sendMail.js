@@ -29,3 +29,4 @@ const sendMail = async (message, subject, email) => {
 }
 
 module.exports = { sendMail }
+

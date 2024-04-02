@@ -7,7 +7,7 @@ const Reset = require('../Model/resetPasswordModel')
 const { sendMail } = require('../Utils/sendMail')
 const register = async (req, res) => {
   try {
-    console.log("Req send", req.body)
+    
     const { name, email, password, confirmPassword } = req.body
     let preuser = await User.findOne({ email })
     if (!name || !email || !password || !confirmPassword) {
@@ -16,7 +16,7 @@ const register = async (req, res) => {
     else if (preuser) {
       if (preuser.isVerified === false) {
         await preuser.deleteOne({ _id: preuser._id })
-        console.log("deletedSuccessfully");
+        
       } else {
         return res.status(400).json({ error: "User Already Exists" });
       }
@@ -105,7 +105,7 @@ const login = async (req, res) => {
       return res.status(400).json({ error: "Invalid Email or Password" });
     }
     const validPassword = await user.comparePassword(password);
-    console.log(validPassword)
+    
     if (!validPassword) {
       return res.status(400).json({ error: "Invalid Email or Password" });
     }
@@ -145,14 +145,14 @@ const resendMail = async (req, res) => {
   try {
     // const Date = new Date()
     const currentDate = Date.now();
-    console.log(req.body)
+    
     const { _id, token } = req.body
     const user = await User.findOne({ _id, verificationToken: token });
     if (!user) {
       return res.status(404).json({ error: "User Not Found" });
     }
     await user.saveVerificationToken();
-    console.log(currentDate)
+    
     await sendMail(`<a href="${process.env.BASE_URL}/${user.verificationToken}/verify/${user._id}">Verify</a>`, user.email)
     return res.status(200).json({ error: "Mail Send Successfully" });
   } catch (error) {
@@ -269,7 +269,7 @@ const updatePassword = async (req, res) => {
     const { verificationToken, password } = req.body;
     const user = await Reset.findOne({ "verificationToken": verificationToken });
 
-    console.log(req.body);
+
 
 
     if (!user || user.tokenExpires > Date.now()) {
