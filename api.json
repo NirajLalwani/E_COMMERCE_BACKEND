@@ -191,5 +191,180 @@
         "company": "MI",
         "ratings": 2.5,
         "reviews": 14
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/71x2rHMaN+L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71PgKdixlaL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51fP6CkO7qL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/711aCCtWNzL._SX679_.jpg"
+        ],
+        "stock": 64,
+        "name": "NIBOSI Men's Watches Analog Business",
+        "price": 3445,
+        "description": "Classic Design: The NIBOSI quartz Men's Watch combines classic style and versatility, making it suitable for any occasion. Its classic design and array of features cater to the modern man's needs Quartz Movement: Stable, time accurate and long lasting, we offer men's watches with Japanese quartz movement. The button battery is replaceable to ensure a lifetime of use. Multifunctional chronograph with seconds, minutes and 1/10 seconds.",
+        "isFeatured": false,
+        "category": "Watch",
+        "company": "NIBOSI",
+        "ratings": 1.5,
+        "reviews": 64
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/418VOtv59lL._SX300_SY300_QL70_FMwebp_.jpg",
+            "https://m.media-amazon.com/images/I/61HFzdAjiXL._SY450_.jpg",
+            "https://m.media-amazon.com/images/I/71CJ7Mi8jGL._SY450_.jpg",
+            "https://m.media-amazon.com/images/I/71w3fbLVX2L._SY450_.jpg"
+        ],
+        "stock": 64,
+        "name": "NoiseFit Halo ",
+        "price": 2799,
+        "description": "1.43 inches(3.63cms) AMOLED display, 466x466px - The smartwatch features the biggest screen size in a round dial. Enjoy bright and sharp visuals upon every glance. Up to 7-day battery life - Get up to 7 days of battery life on a full charge & up to 1 day of power with calling activated. Its 300mAh battery takes approx. 2 hours to fully charge. (Battery life can vary due to multiple factors such as turning on continuous HR tracking or turning up the brightness)",
+        "isFeatured": false,
+        "category": "Watch",
+        "company": "Noise",
+        "ratings": 4.5,
+        "reviews": 24
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/61EclBYcocL._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/615r9OLQBVL._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/41ifTn0DjeS._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/41p8m8ApaLL._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/41VYg3mv92L._SX425_.jpg"
+        ],
+        "stock": 84,
+        "name": "mi Smart Watch",
+        "price": 499,
+        "description": "【2021 Upgraded Smart Watch】 Equipped with 1.33 inches TFT-LCD full touch screen, make a great breakthrough in button touch fitness watch and advanced health smartwatch that helps you tune in to your body with tools for sleep tracking, sport record, menstrual health tracking, relax guidance, alarm, timer and so on.【Smart watch for All Android Phones - Compatible with most iOS 8.0 & Android 4.4 above smartphones. Download and install Free VeryFitPro APP, bind this smartwatch in your cell phone, you can receive alerts of calendar, SMS, incoming calls and SNS (Facebook, Twitter, Whatsapp, Skype, Snapchat and more) on this watch; It will never let you miss any important events.",
+        "isFeatured": false,
+        "category": "Watch",
+        "company": "MI",
+        "ratings": 5.5,
+        "reviews": 24
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/418VOtv59lL._SX300_SY300_QL70_FMwebp_.jpg",
+            "https://m.media-amazon.com/images/I/61HFzdAjiXL._SY450_.jpg",
+            "https://m.media-amazon.com/images/I/71CJ7Mi8jGL._SY450_.jpg",
+            "https://m.media-amazon.com/images/I/71w3fbLVX2L._SY450_.jpg"
+        ],
+        "stock": 26,
+        "name": "boAt Xtend Smart Watch",
+        "price": 999,
+        "description": "Screen: 1.78-inch AMOLED display with a square dial offers a full capacitive touch experience, allowing you to easily take control. Peak Brightness: 700 nits boAt Coins- Get vouchers/coupons that can be redeemed on our boAt Crest App basis your workouts!",
+        "isFeatured": false,
+        "category": "Watch",
+        "company": "Boat",
+        "ratings": 4.5,
+        "reviews": 24
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/71f2lQ3ESWL._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/81rPgDkyf7L._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/81kkL7JWhWL._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/61kOtBfQECL._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/81x4iV5bK0L._SX425_.jpg"
+        ],
+        "stock": 11,
+        "name": "",
+        "price": 37380,
+        "description": "【6-core 12th Gen Intel Core i3-1215U】 8 threads and 10MB L3 cache deliver high performance and instant responsiveness. The Intel UHD graphics help you dive into crisp, stunning visuals. 【Upgraded memory and storage】 8GB DDR4 RAM and 512GB SSD help you undertake improved multitasking with ample of storage and higher-bandwidth memory. Now, create, browse, and work as you please.",
+        "isFeatured": false,
+        "category": "Laptop",
+        "company": "HP",
+        "ratings": 4.5,
+        "reviews": 74
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/41tgMD13-jL._SX300_SY300_QL70_FMwebp_.jpg",
+            "https://m.media-amazon.com/images/I/61fE6g+YAOL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61S0X+ud3nL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61FW1uHkNaL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61Lzk300YnL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/51vLoAG-zjL._SX569_.jpg"
+        ],
+        "stock": 41,
+        "name": "HP Laptop 15",
+        "price": 34990,
+        "description": " Processor - Intel Core i3-1215U (up to 4.4 GHz with Intel Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads); Memory - 8 GB memory ; Storage - 512 GB PCIe NVMe M.2 SSD Display and Graphics: 39.6 cm (15.6) diagonal, FHD (1920 x 1080), micro-edge, glare, 250 nits, 45% NTSC| Graphics - Intel UHD Graphics ",
+        "isFeatured": false,
+        "category": "Laptop",
+        "company": "HP",
+        "ratings": 4.5,
+        "reviews": 14
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/41R40Q2NSZL._SX300_SY300_QL70_FMwebp_.jpg",
+            "https://m.media-amazon.com/images/I/51SrqZLkqvL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61UyRH5gHFL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/612gPUpPwcL._SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61s8MK5aVQL._SX569_.jpg"
+        ],
+        "stock": 81,
+        "name": "Dell Inspiron 3520",
+        "price": 52650,
+        "description": "Processor: Intel Core i5-1235U (up to 4.40 GHz, 12MB Cache, 10 Cores) // RAM: 16 GB, 2 x 8 GB, DDR4, 2666 MHz // Storage: 512GB SSD Software: Pre-Loaded Windows 11 Home with Lifetime Validity | MS Office Home and Student 2021 with lifetime validity| McAfee Multi Device Security 15-month subscription",
+        "isFeatured": false,
+        "category": "Laptop",
+        "company": "Dell",
+        "ratings": 4.8,
+        "reviews": 11
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/71UndyehtzL._SX522_.jpg",
+            "https://m.media-amazon.com/images/I/71Izs5E8jWL._SX522_.jpg",
+            "https://m.media-amazon.com/images/I/718j1b2r1kL._SX522_.jpg",
+            "https://m.media-amazon.com/images/I/81GygZ-GTLL._SX522_.jpg"
+        ],
+        "stock": 51,
+        "name": "Nirvana Eutopia",
+        "price": 3999,
+        "description": "Built-in Head Tracking: Turn your head and you will hear a change in the direction of the sound for uninterrupted audio immersion with the help of gyroscope and accelerometer that is enabled in these headphones. boAt Immersive Audio & Spatial Sound: Experience sound the way it was intended with boAt Nirvana Eutopia. Riveting spatial audio lends an immersive experience while watching movies or playing fast-paced games. Toggle b/w Head-tracked spatial, Fixed Spatial and “signature sound” mode as per your wish.",
+        "isFeatured": false,
+        "category": "Headpone",
+        "company": "Boat",
+        "ratings": 3.8,
+        "reviews": 56
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/31zBBHK4jBL._SX300_SY300_QL70_FMwebp_.jpg",
+            "https://m.media-amazon.com/images/I/81I41iELbjL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71o8Gvg++SL._SX679_.jpg"
+        ],
+        "stock": 51,
+        "name": "Bash Max",
+        "price": 3999,
+        "description": " Touch Control Headphone - Change track & Volume control with the touch controls on the headphone18 Hours Playtime - Enjoy an extended listening time with your favorite tracks on repeat with Bash Max overhead headphones that boasts of up to 18 hours of playtime",
+        "isFeatured": false,
+        "category": "Headpone",
+        "company": "Hammer",
+        "ratings": 3.8,
+        "reviews": 56
+    },
+    {
+        "images": [
+            "https://m.media-amazon.com/images/I/612wfrtHpML._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/41212WwiTgL._SX300_SY300_QL70_FMwebp_.jpg",
+            "https://m.media-amazon.com/images/I/61enb-xj03L._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/61UltcuzL7L._SX425_.jpg",
+            "https://m.media-amazon.com/images/I/61rHt2QGOnL._SX425_.jpg"
+        ],
+        "stock": 51,
+        "name": "Boat Rockerz 450",
+        "price": 1499,
+        "description": "Its 40mm dynamic drivers help pump out immersive HD audio all day long It provides a massive battery backup of upto 15 hours for a superior playback time.",
+        "isFeatured": false,
+        "category": "Headpone",
+        "company": "Boat",
+        "ratings": 4.8,
+        "reviews": 96
     }
 ]
