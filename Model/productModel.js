@@ -8,25 +8,28 @@ const schema = new mongoose.Schema({
         "type": Number
     },
     "name": {
-        "type": "string"
+        "type": String
     },
     "price": {
-        "type": "number"
+        "type": Number
     },
     "description": {
-        "type": "string"
+        "type": String
     },
     "isFeatured": {
-        "type": "boolean"
+        "type": Boolean
+    },
+    "isNewlyLaunched": {
+        "type": Boolean
     },
     "category": {
-        "type": "string"
+        "type": String
     },
     "company": {
-        "type": "string"
+        "type": String
     },
     "ratings": {
-        "type": "number"
+        "type": Number
     },
     "reviews": {
         "type": Number

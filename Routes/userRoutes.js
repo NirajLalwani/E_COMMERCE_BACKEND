@@ -22,5 +22,10 @@ router.route("/sendresetlink").post(userController.sendResetPasswordLink)
 
 router.route("/updatePassword").patch(userController.updatePassword)
 
+router.route("/getUsers/:_id").get(userController.getUsers)
+
+router.route("/updateIsAdmin/:_id/:adminId").patch(userController.updateIsAdmin)
+
+router.route("/deleteUser/:_id/:adminId").delete(userController.deleteUser)
 
 module.exports = router;

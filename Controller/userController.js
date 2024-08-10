@@ -312,8 +312,51 @@ const updatePassword = async (req, res) => {
 //********************************************************************************************* */
 
 
+const getUsers = async (req, res) => {
+  try {
+    const { _id } = req.params;
+    const isAdmin = await User.findOne({ _id });
+    if (isAdmin.isAdmin) {
+      const allUsers = await User.find();
+      return res.status(200).json({ allUsers })
+    }
+    return res.status(200).json({ "Message": "You Are Not a Admin" });
+
+  } catch (error) {
+    console.log(error);
+    console.log("Get Users error")
+  }
+}
+
+
+const updateIsAdmin = async (req, res) => {
+  try {
+    let { adminId, _id } = req.params;
+    let admin = await User.findById(adminId);
+    if (admin.isAdmin) {
+      let user = await User.findOne({ _id });
+      user.isAdmin = user.isAdmin ? false : true;
+      await user.save()
+      res.status(200).json({ "Message": "Updated Successfully" })
+    }
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+const deleteUser = async (req, res) => {
+  try {
+    let { adminId, _id } = req.params;
+    let admin = await User.findById(adminId);
+    if (admin.isAdmin) {
+      let user = await User.deleteOne({ _id });
+      res.status(200).json({ "Message": "Deleted Successfully" })
+    }
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 
 
-
-module.exports = { register, login, verifyMail, getData, sendResetPasswordLink, updatePassword }
+module.exports = { register, login, verifyMail, getData, sendResetPasswordLink, updatePassword, getUsers, updateIsAdmin, deleteUser }
